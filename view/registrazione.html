@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Registrazione</title>
+        <link rel="stylesheet" type="text/css" href="../static/css/styleRegistrazione.css" media="screen" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    </head>
+    <body>
+        <div id="box">
+            <form name="login" method="post">
+
+                <input type="text" name="name" value="nome" onfocus="if (this.value == 'nome') this.value = ''"
+                onblur="if(this.value== '') this.value='nome'">
+                <input type="text" name="surname" value="cognome" onfocus="if (this.value == 'cognome') this.value = ''"
+                onblur="if(this.value== '') this.value='cognome'">
+                <input type="email" name="email" value="email" onfocus="if (this.value == 'email') this.value = ''"
+                onblur="if(this.value== '') this.value='email'">
+                <br>
+                <input type="password" name="password" value="password" onfocus="if (this.value == 'password') this.value = ''"
+                onblur="if(this.value== '') this.value='password'">
+                <input type="password" name="password" value="password" onfocus="if (this.value == 'password') this.value = ''"
+                onblur="if(this.value== '') this.value='password'">
+                <input type="submit" value="Registrati!" id="submit">
+                <br>
+                <br>
+                <p>Torna al <a href="/">login</a></p>
+
+            </form>
+        </div>
+        
+    </body>
+</html>
